@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "updated": "2026-10-17",
+  "kind": "curated-upstream-references",
+  "modules": [
+    {
+      "id": "opencode",
+      "repo": "https://github.com/anomalyco/opencode",
+      "role": "coding",
+      "status": "recommended",
+      "license": "MIT"
+    },
+    {
+      "id": "openhands",
+      "repo": "https://github.com/OpenHands/OpenHands",
+      "role": "coding orchestration",
+      "status": "recommended",
+      "license": "MIT"
+    },
+    {
+      "id": "bolt-diy",
+      "repo": "https://github.com/stackblitz-labs/bolt.diy",
+      "role": "site builder",
+      "status": "license-conditional",
+      "license": "MIT code + commercial WebContainer terms"
+    },
+    {
+      "id": "comfyui",
+      "repo": "https://github.com/Comfy-Org/ComfyUI",
+      "role": "image/video",
+      "status": "recommended",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "wan2.2",
+      "repo": "https://github.com/Wan-Video/Wan2.2",
+      "role": "video model",
+      "status": "needs GPU/workflow",
+      "license": "Apache-2.0 plus conditions"
+    },
+    {
+      "id": "ltx-video",
+      "repo": "https://github.com/Lightricks/LTX-Video",
+      "role": "video model",
+      "status": "optional",
+      "license": "checkpoint-specific"
+    },
+    {
+      "id": "ollama",
+      "repo": "https://github.com/ollama/ollama",
+      "role": "local LLM",
+      "status": "recommended",
+      "license": "MIT"
+    },
+    {
+      "id": "e2b",
+      "repo": "https://github.com/e2b-dev/E2B",
+      "role": "sandbox",
+      "status": "planned",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "playwright",
+      "repo": "https://github.com/microsoft/playwright",
+      "role": "QA",
+      "status": "planned",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "aider",
+      "repo": "https://github.com/Aider-AI/aider",
+      "role": "coding alternate",
+      "status": "optional",
+      "license": "verify"
+    },
+    {
+      "id": "continue",
+      "repo": "https://github.com/continuedev/continue",
+      "role": "IDE alternate",
+      "status": "optional",
+      "license": "verify"
+    },
+    {
+      "id": "invokeai",
+      "repo": "https://github.com/invoke-ai/InvokeAI",
+      "role": "media alternate",
+      "status": "optional",
+      "license": "multiple"
+    },
+    {
+      "id": "open-webui",
+      "repo": "https://github.com/open-webui/open-webui",
+      "role": "chat UI reference",
+      "status": "license-conditional",
+      "license": "Open WebUI License + branding"
+    },
+    {
+      "id": "llama.cpp",
+      "repo": "https://github.com/ggml-org/llama.cpp",
+      "role": "local LLM alternate",
+      "status": "optional",
+      "license": "MIT"
+    }
+  ]
+}
